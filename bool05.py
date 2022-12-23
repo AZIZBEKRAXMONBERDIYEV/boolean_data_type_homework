@@ -6,5 +6,7 @@ def main(a):
     Returns:
         bool
     """
+    n=a%2==1
     # Write your code here
-    return 
+    return n
+print(main(9))
