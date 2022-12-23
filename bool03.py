@@ -6,5 +6,7 @@ def main(b):
     Returns:
         bool
     """
+    n=b>0
     # Write your code here
-    return 
+    return n
+print(main(5)) 
